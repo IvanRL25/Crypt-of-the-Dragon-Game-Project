@@ -1,0 +1,22 @@
+0.5.0 Major Update
+- new sprites introduced for certain enemies
+- more sprites in the works 
+- fixed an issue with the game not rendering correctly on certain moniters
+- still working on save mechanics and new enemies
+
+0.4.2 minor bug fix and patch 2
+- changes to the delay between attacks
+- pause menu opening takes a bit more to start
+- health bar percentages added
+- saving still in progress and new enemies coming soon
+
+0.4.1 minor bug fix and patch
+- fix invertion of pause menu scroll controlls
+- added delay between attack selection during battle
+- added delay between stat upgrades
+- attempted to fix the pause menu being sticky issues
+- added texts detailing controls in pause menu and stat upgrade 
+   screen
+- Save mechanics and removing added stats is still in construction
+
+0.4.0 Initial Release for Test
