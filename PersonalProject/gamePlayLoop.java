@@ -408,7 +408,7 @@ public boolean enemyAppears(Graphics g) throws InterruptedException, IOException
             }
         }
 
-        Thread.sleep(150);
+       // Thread.sleep(150);
         }
     if(Playerlive == false){
         g.setColor(Color.orange);
@@ -479,7 +479,7 @@ public double[] playerAttacks(Graphics g) throws InterruptedException {
        Attacks.enemyAttacks(EnemyLvl, g,gameLevel);
         Done = 1;
         playerAttacksT[0]=0;
-        Thread.sleep(200);
+     //   Thread.sleep(200);
         }
     if(Controller.two == true && enemymovement == true){
         mediumAttacktime = mediumAttacktime+(1.0/58.0);
@@ -492,7 +492,7 @@ public double[] playerAttacks(Graphics g) throws InterruptedException {
          Attacks.enemyAttacks(EnemyLvl, g,gameLevel);
         Done = 2;
         playerAttacksT[1]=0;
-        Thread.sleep(200);
+     //   Thread.sleep(200);
     }
     if(Controller.three == true && enemymovement == true){
         HeavyAttacktime = HeavyAttacktime+(1.0/58.0);
@@ -505,7 +505,7 @@ public double[] playerAttacks(Graphics g) throws InterruptedException {
        Attacks.enemyAttacks(EnemyLvl, g,gameLevel);
         Done = 3; 
         playerAttacksT[2]=0;
-        Thread.sleep(200);
+      //  Thread.sleep(200);
     }
      if(Controller.four == true && enemymovement == true){
         MagicAttacktime = MagicAttacktime+(1.0/58.0);
@@ -518,7 +518,7 @@ public double[] playerAttacks(Graphics g) throws InterruptedException {
        Attacks.enemyAttacks(EnemyLvl, g,gameLevel);   
        Done = 4;
        playerAttacksT[3]=0;
-       Thread.sleep(200);
+     //  Thread.sleep(200);
     }   
 
     if(Controller.five == true && enemymovement == true){
@@ -534,7 +534,7 @@ public double[] playerAttacks(Graphics g) throws InterruptedException {
         Attacks.enemyAttacks(EnemyLvl, g,gameLevel);
         Done = 5; 
         playerAttacksT[4]=0;
-        Thread.sleep(200);
+      //  Thread.sleep(200);
     }
 
     g.setColor(Color.YELLOW);

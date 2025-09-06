@@ -193,8 +193,23 @@ public class PauseMenu {
         }
         else if(select == 2 && selectedConfirmed){
             //save
-        
+            showOptions = false;
+                
+                g.drawString("Press 1 to return to Menu", DungeonCrawlerTest.WIDTH/2-150, 375 );
          
+                if(Controller.one == true){
+                    exitChoice += 1.0/12.0;
+                }
+                if(Controller.one == false){
+                    exitChoice = 0;
+                }
+    
+                if(exitChoice >= 1.0){
+                    exitChoice = 0.0;
+                    selectedConfirmed = false;
+                    showOptions = true;
+                }
+
         }
         else if(select == 3 && selectedConfirmed ){
             // takes you back to the main menu
